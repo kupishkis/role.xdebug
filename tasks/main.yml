@@ -1,4 +1,4 @@
 ---
 - name: ensure xdebug config is valid
   sudo: true
-  template: src=xdebug.j2 dest=/etc/php5/conf.d/21-xdebug-ansible.ini mode=0666
+  template: src=xdebug.j2 dest=/etc/php5/fpm/conf.d/21-xdebug-ansible.ini mode=0666
